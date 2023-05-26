@@ -60,7 +60,7 @@ public class OperationWithNotebook {
     }
 
     public int getCriteria(){
-        String text = "Введите цифру, соответствующую необходимому критерию: ";
+        String text = "Введите цифру, соответствующую необходимому критерию : ";
 
         List<String> properties = propertiesForFilter();
 
@@ -227,9 +227,9 @@ class Criterion {
                 double getValue = scanner.nextDouble();
                 criterion = new Criterion(property, isQuantitative, null, getValue, null);
             } else if (text.equals("4")) {
-                System.out.println("Введите минимальное предельное значение: ");
+                System.out.println("Введите минимальное  значение: ");
                 double getMin = scanner.nextDouble();
-                System.out.println("Введите максимальное предельное значение: ");
+                System.out.println("Введите максимальное  значение: ");
                 double getMax = scanner.nextDouble();
                 criterion = new Criterion(property, isQuantitative, null, getMin, getMax);
             }

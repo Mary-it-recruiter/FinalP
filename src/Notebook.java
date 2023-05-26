@@ -41,8 +41,8 @@ public class Notebook {
         return "Ноутбук: (" + name + "): " +
                 "кол-во опретивной памяти:" + amountRAM +
                 ", ОС: " + operatingSystem + '\'' +
-                ", цена: " + price +
-                ", модель: " + model;
+                ", цена : " + price +
+                ", модель : " + model;
     }
 
     public String getName() {
